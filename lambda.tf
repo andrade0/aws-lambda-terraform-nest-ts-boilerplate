@@ -59,7 +59,7 @@ resource "aws_iam_policy" "lambda_logging" {
   depends_on = [
      aws_lambda_function.lambda_function,
   ]
-  name        = "lambda_logging"
+  name        = "lambda_logging_${var.function_name}"
   path        = "/"
   description = "IAM policy for logging from a lambda"
 
