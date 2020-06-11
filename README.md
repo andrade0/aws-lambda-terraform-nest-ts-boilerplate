@@ -18,5 +18,3 @@ edit nodejs/src with the nest app
 run `./deploy.sh` to deploy
 
 run `./destroy.sh` to destroy
-
-( make sure to change version in the package.json on every deploy )
